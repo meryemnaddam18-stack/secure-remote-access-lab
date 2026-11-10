@@ -17,6 +17,9 @@ Hands-on lab building a site-to-site IPsec VPN and hardened remote management, t
 | ISP | Gi0/0 / Gi0/1 | 10.1.1.2/30 / 10.2.2.2/30 |
 | BR-R | Gi0/1 (WAN) | 10.2.2.1/30 |
 | BR-R | Gi0/0 (LAN) | 192.168.20.1/24 |
+| Admin-PC | NIC | 192.168.10.50/24 |
+| HQ-PC | NIC | 192.168.10.10/24 |
+| BR-PC | NIC | 192.168.20.10/24 |
 
 The ISP router has no routes to the private LANs, so traffic between sites only works through the encrypted tunnel.
 
