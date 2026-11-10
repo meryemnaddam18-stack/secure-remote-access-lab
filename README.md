@@ -56,8 +56,11 @@ Both VPN routers are hardened so only the admin workstation (192.168.10.50) can 
 The branch router is managed remotely through the VPN: the SSH session from HQ travels encrypted across the ISP.
 
 ![SSH to branch via VPN](screenshots/ssh-admin-to-branch-via-vpn.png)
+
 ![SSH refused](screenshots/ssh-refused-hq-pc.png)
+
 ![show ip ssh](screenshots/show-ip-ssh.png)
+
 ## Troubleshooting
 I hit four issues while building this (license activation, missing config, a non-mirrored crypto ACL, and a miscabled WAN interface). See [TROUBLESHOOTING.md](TROUBLESHOOTING.md).
 
